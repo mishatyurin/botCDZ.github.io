@@ -1,0 +1,106 @@
+/* Created by CDZ-Answers 2021 */
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    padding: 3px;
+    border: 1px solid #858585;
+}
+
+li {
+    margin: 0 0 7px 0;
+}
+
+p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.task {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    margin: 0 0 14px 0;
+    border-radius: 8px;
+    width: 90%;
+    overflow: auto;
+    word-wrap: break-word;
+    border: 2px solid #CCC;
+    background-color: rgba(221, 221, 221, 0.8);
+}
+
+.task.error {
+    border: 2px solid hsl(0, 100%, 45%);
+}
+
+.task.free {
+    border: 2px solid hsl(50, 100%, 40%);
+}
+
+.task.success {
+    border: 2px solid hsl(130, 100%, 30%);
+}
+
+#mySearch {
+    width: 50%;
+    max-width: 300px;
+    font-size: 18px;
+    padding: 11px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    outline: none !important;
+}
+
+#answerOption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#textWithImg {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 60%;
+    min-width: 150px;
+    max-width: 400px;
+    align-items: center;
+    text-align: center;
+}
+
+#taskImg {
+    margin-bottom: 5px;
+    width: 100%;
+    min-width: 150px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#questionText, #answerText {
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: #555;
+    padding: 9px, 0, 0, 0;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+#questionData, #answerData {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 21px;
+    font-family: Arial, sans-serif;
+}
